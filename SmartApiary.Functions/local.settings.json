@@ -1,0 +1,19 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "GridMonitorSchedule": "*/10 * * * * *",
+    "AzureTableOptions:ConnectionString": "UseDevelopmentStorage=true",
+    "AzureTableOptions:TelemetriesTable": "Telemetries",
+    "AzureTableOptions:DevicesTable": "Devices",
+    "AzureTableOptions:DeviceStatusesTable": "DeviceStatuses",
+    "AzureTableOptions:FirmwaresTable": "Firmwares",
+    "AzureBlobOptions:FirmwareBlob": "firmware-updates",
+    "AzureBlobOptions:ConnectionString": "UseDevelopmentStorage=true",
+    "AzureQueueOptions:AlertQueue": "alert-queue",
+    "AzureQueueOptions:DeviceStatusQueue": "device-status-queue",
+    "AzureQueueOptions:ConnectionString": "UseDevelopmentStorage=true",
+    "ParallelSettings:MaxDegreeOfParallelism": 20
+  }
+}
